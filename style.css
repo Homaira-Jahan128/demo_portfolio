@@ -24,7 +24,7 @@ header{
 
 .headerLinks a{
     text-decoration: none;
-    padding: 30px;
+    padding: 24px;
     color: #f6e4d4;
     max-width: 60%;
 }
@@ -136,4 +136,13 @@ a.projects {
 
 a.projects:hover {
     color: #a53c4e;
+}
+
+
+/* education */
+.education{
+    padding-left: 60px;
+    color: #7b1e2d;
+    border-bottom: 2px solid #7b1e2d;
+    margin-bottom: 20px;
 }
