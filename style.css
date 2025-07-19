@@ -146,3 +146,12 @@ a.projects:hover {
     border-bottom: 2px solid #7b1e2d;
     margin-bottom: 20px;
 }
+
+.edu_link{
+    text-decoration: none;
+    color: black;
+}
+
+a.edu_link:hover{
+    color:#a53c4e;
+}
