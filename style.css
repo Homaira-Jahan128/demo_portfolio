@@ -1,15 +1,74 @@
+body{
+    background-color: #f6e4d4;
+    margin: 0px;
+}
+
+.adlam-display-regular {
+  font-family: "ADLaM Display", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content:left;
     align-items: center;
-    margin: 0px;
-    padding: 0px 20px 0 20px;
-    margin: 0px 0px;
+    margin-top: 0px;
+    padding: 4px 100px 4px 100px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #7b1e2d;
+    color: #f6e4d4;
 }
 
 .headerLinks a{
     text-decoration: none;
-    padding-left: 8px;
-    color: black;
-    padding: 12px;
+    padding: 30px;
+    color: #f6e4d4;
+    max-width: 60%;
+}
+.my_name{
+    /* padding-right: 100px; */
+    width: 40%;
+}
+
+/* .contact{
+    background: #f6e4d4;
+    border-radius: 12px;
+    
+} */
+
+.nav_body{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0px 100px 0px 100px;
+}
+
+.my_image{
+    padding-top: 60px;
+    align-items: baseline;
+    width: 40%;
+    /* padding-right: 130px; */
+}
+
+.image{
+    max-width: 80%;
+    border: rounded;
+}
+
+.description{
+    width: 60%;
+    padding-left: 50px;
+    font-size: 20px;
+    color: #626060;
+    font-size: 18px;
+}
+
+.bold_name{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #7b1e2d;
 }
